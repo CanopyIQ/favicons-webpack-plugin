@@ -11,7 +11,6 @@
     "lint": "semistandard",
     "prepublish": "npm run test",
     "posttest": "npm run lint",
-    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -48,7 +47,7 @@
     "webpack-dev-middleware": "^1.6.1"
   },
   "dependencies": {
-    "favicons": "^4.8.3",
+    "favicons": "https://github.com/CanopyIQ/favicons.git#9b8b5e3dadfe51f6fe7bd9c4f7417e5efd4cfdb4",
     "loader-utils": "^0.2.14",
     "lodash": "^4.11.1",
     "webpack": "^1.13.0"
